@@ -5,29 +5,31 @@ import lombok.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "users")
+@Table(name = "suppliers")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class User {
+public class Supplier {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, length = 100)
+    @Column(nullable = false, length = 150)
     private String name;
 
-    @Column(nullable = false, unique = true, length = 150)
+    @Column(length = 15)
+    private String phone;
+
+    @Column(length = 150)
     private String email;
 
-    @Column(nullable = false)
-    private String password;
+    @Column(length = 20)
+    private String gstNumber;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false, length = 20)
-    private Role role;
+    @Column(columnDefinition = "TEXT")
+    private String address;
 
     @Column(nullable = false)
     @Builder.Default
@@ -36,8 +38,4 @@ public class User {
     @Column(nullable = false, updatable = false)
     @Builder.Default
     private LocalDateTime createdAt = LocalDateTime.now();
-
-    public enum Role {
-        ADMIN, MANAGER, BILLING
-    }
 }
