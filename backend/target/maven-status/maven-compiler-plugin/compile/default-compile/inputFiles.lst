@@ -13,7 +13,7 @@ C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\dto\ApiRespon
 C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\controller\AlertController.java
 C:\Users\LENOVO\medstock-pro\backend\src\main\java\MedStockProApplication.java
 C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\service\GSTInvoiceService.java
-C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\dto\stockBatchRequest.java
+C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\dto\StockBatchRequest.java
 C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\service\MedicineService.java
 C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\config\JwtFilter.java
 C:\Users\LENOVO\medstock-pro\backend\src\main\java\com\medstockpro\service\FIFOStockService.java
