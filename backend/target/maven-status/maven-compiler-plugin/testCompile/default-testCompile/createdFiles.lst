@@ -1,0 +1,4 @@
+com\medstockpro\service\GSTCalculationTest.class
+com\medstockpro\controller\AuthControllerIntegrationTest.class
+com\medstockpro\service\FIFOStockServiceTest.class
+com\medstockpro\service\SaleServiceTest.class
